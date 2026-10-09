@@ -1,0 +1,10 @@
+{
+  "project": "OVERLEAF",
+  "category": "ACADEMIA_RD",
+  "path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\ACADEMIA_RD\\OVERLEAF",
+  "status": "failed",
+  "reason": "no 40-hex git HEAD SHA (head=None; sanitized clone or .git absent)",
+  "files_count": 8,
+  "lines_of_code": 833,
+  "sha": null
+}
