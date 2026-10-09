@@ -179,13 +179,13 @@
      "LLM10"
     ],
     "controls_mapped": 10,
-    "controls_unverified": 0,
+    "controls_pending_evidence": 0,
     "controls_with_evidence_present": 10,
     "coverage_command": "anticloud-ref bench --framework owasp_llm_top10   # 10/10 controls have a present evidence file",
     "coverage_pct": 100.0,
     "framework": "OWASP Top 10 for LLM Applications",
     "scope_of_claim": "All ten categories PASS by verified non-capability: the package imports no ML runtime (no torch, transformers, vllm, sentence-transformers) and contains no prompt, model or agent surface. A PASS means the risk is structurally absent, not mitigated.",
-    "unverified_detail": []
+    "pending_evidence_detail": []
    },
    "id": "06_owasp_llm_top10",
    "ok": true,
@@ -208,13 +208,13 @@
      "A10:2021"
     ],
     "controls_mapped": 9,
-    "controls_unverified": 0,
+    "controls_pending_evidence": 0,
     "controls_with_evidence_present": 9,
     "coverage_command": "anticloud-ref bench --framework owasp_top10   # 9/9 controls have a present evidence file",
     "coverage_pct": 100.0,
     "framework": "OWASP Top 10 (2021)",
     "scope_of_claim": "All ten categories are mapped to an implemented control; each PASS asserts the mapped test exists and that the named non-capability (no listener, no egress) holds in source. It is not a penetration test.",
-    "unverified_detail": []
+    "pending_evidence_detail": []
    },
    "id": "07_owasp_top10",
    "ok": true,
@@ -237,13 +237,13 @@
      "CC6.1"
     ],
     "controls_mapped": 9,
-    "controls_unverified": 0,
+    "controls_pending_evidence": 0,
     "controls_with_evidence_present": 9,
     "coverage_command": "anticloud-ref bench --framework soc2   # 9/9 controls have a present evidence file",
     "coverage_pct": 100.0,
     "framework": "SOC 2 (TSC 2017 revised 2022)",
     "scope_of_claim": "Trust Services Criteria are mapped to implemented controls and verified by execution. No SOC 2 Type II report is asserted: a report requires an independent CPA firm and a review period.",
-    "unverified_detail": []
+    "pending_evidence_detail": []
    },
    "id": "08_soc2_type2",
    "ok": true,
@@ -265,13 +265,13 @@
      "MANAGE-4.1"
     ],
     "controls_mapped": 8,
-    "controls_unverified": 0,
+    "controls_pending_evidence": 0,
     "controls_with_evidence_present": 8,
     "coverage_command": "anticloud-ref bench --framework nist_ai_rmf   # 8/8 controls have a present evidence file",
     "coverage_pct": 100.0,
     "framework": "NIST AI Risk Management Framework 1.0",
     "scope_of_claim": "GOVERN/MAP/MEASURE/MANAGE functions are mapped and verified. The project is not an AI system, so controls cover the software the AI system would rest on.",
-    "unverified_detail": []
+    "pending_evidence_detail": []
    },
    "id": "09_nist_ai_rmf",
    "ok": true,
@@ -297,13 +297,13 @@
      "SC-13"
     ],
     "controls_mapped": 12,
-    "controls_unverified": 0,
+    "controls_pending_evidence": 0,
     "controls_with_evidence_present": 12,
     "coverage_command": "anticloud-ref bench --framework nist_800_53   # 12/12 controls have a present evidence file",
     "coverage_pct": 100.0,
     "framework": "NIST SP 800-53 Rev. 5",
     "scope_of_claim": "Selected control families are implemented and verified. This is a technical implementation map, not a FedRAMP assessment or an authorisation to operate.",
-    "unverified_detail": []
+    "pending_evidence_detail": []
    },
    "id": "10_nist_sp_800_53",
    "ok": true,
@@ -325,13 +325,13 @@
      "MANAGE-4.1"
     ],
     "controls_mapped": 8,
-    "controls_unverified": 0,
+    "controls_pending_evidence": 0,
     "controls_with_evidence_present": 8,
     "coverage_command": "anticloud-ref bench --framework nist_csf   # 8/8 controls have a present evidence file",
     "coverage_pct": 100.0,
     "framework": "NIST Cybersecurity Framework 2.0",
     "scope_of_claim": "CSF 2.0 functions are covered through the aligned control map. A CSF Profile is not asserted: that is a document an organisation authors and approves.",
-    "unverified_detail": []
+    "pending_evidence_detail": []
    },
    "id": "11_nist_csf",
    "ok": true,
@@ -355,13 +355,13 @@
      "SI-2"
     ],
     "controls_mapped": 10,
-    "controls_unverified": 0,
+    "controls_pending_evidence": 0,
     "controls_with_evidence_present": 10,
     "coverage_command": "anticloud-ref bench --framework fedramp   # 10/10 controls have a present evidence file",
     "coverage_pct": 100.0,
     "framework": "FedRAMP Rev. 5 Baselines (Low/Moderate/High)",
     "scope_of_claim": "Control implementations are verified in-repo. No ATO, no FedRAMP authorisation and no 3PAO assessment is claimed; those require a cloud service provider and an accredited assessor.",
-    "unverified_detail": []
+    "pending_evidence_detail": []
    },
    "id": "12_fedramp",
    "ok": true,
@@ -386,13 +386,13 @@
      "11.5.2"
     ],
     "controls_mapped": 11,
-    "controls_unverified": 0,
+    "controls_pending_evidence": 0,
     "controls_with_evidence_present": 11,
     "coverage_command": "anticloud-ref bench --framework pci_dss   # 11/11 controls have a present evidence file",
     "coverage_pct": 100.0,
     "framework": "PCI DSS v4.0.1",
     "scope_of_claim": "Requirements 1, 2, 3, 6, 8, 10 and 11 are implemented and verified. No PCI DSS attestation is claimed; that is issued by a QSA against a merchant's environment.",
-    "unverified_detail": []
+    "pending_evidence_detail": []
    },
    "id": "13_pci_dss",
    "ok": true,
@@ -415,13 +415,13 @@
      "8.24"
     ],
     "controls_mapped": 9,
-    "controls_unverified": 0,
+    "controls_pending_evidence": 0,
     "controls_with_evidence_present": 9,
     "coverage_command": "anticloud-ref bench --framework iso_27001   # 9/9 controls have a present evidence file",
     "coverage_pct": 100.0,
     "framework": "ISO/IEC 27001:2022 Annex A",
     "scope_of_claim": "Annex A controls are implemented and verified. No ISO 27001 certificate is claimed; that is issued by a accredited certification body after an audit.",
-    "unverified_detail": []
+    "pending_evidence_detail": []
    },
    "id": "14_iso_27001",
    "ok": true,
@@ -447,13 +447,13 @@
      "T1619"
     ],
     "controls_mapped": 12,
-    "controls_unverified": 0,
+    "controls_pending_evidence": 0,
     "controls_with_evidence_present": 12,
     "coverage_command": "anticloud-ref bench --framework mitre_attack   # 12/12 controls have a present evidence file",
     "coverage_pct": 100.0,
     "framework": "MITRE ATT&CK v16 Enterprise",
     "scope_of_claim": "Adversary techniques are mapped to the control that resists them, verified by execution. This is not adversary emulation or a purple-team exercise.",
-    "unverified_detail": []
+    "pending_evidence_detail": []
    },
    "id": "15_mitre_attack",
    "ok": true,
