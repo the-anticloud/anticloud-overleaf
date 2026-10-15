@@ -1,0 +1,46 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:c0fbfcfc-e2ed-5b00-97b1-77b9a5a71f46",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T07:00:35Z",
+    "component": {
+      "type": "application",
+      "name": "OVERLEAF",
+      "version": "83b357604d34",
+      "bom-ref": "pkg:generic/anticloud/OVERLEAF@83b357604d34",
+      "purl": "pkg:generic/anticloud/OVERLEAF@83b357604d34",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": ""
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "@modelcontextprotocol/sdk",
+      "version": "^1.0.0",
+      "purl": "pkg:npm/@modelcontextprotocol/sdk@^1.0.0",
+      "bom-ref": "npm/@modelcontextprotocol/sdk@^1.0.0"
+    }
+  ]
+}
