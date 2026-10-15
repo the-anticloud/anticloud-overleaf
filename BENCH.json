@@ -540,10 +540,10 @@
  "version": "1.0.0",
  "source": {
   "git": {
-   "head": "0ebe2ffc839179125e64a679bc402af57beab046",
-   "url": "https://github.com/mjyoo2/OverleafMCP",
-   "branch": "master",
-   "sha_verified_from": "GitHub API commits/master | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/overleaf/overleaf",
+   "head": "e039ad26c5bf5422eb57b89fc7e57c75055e631d",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/mjyoo2/OverleafMCP"
   }
  }
 }
